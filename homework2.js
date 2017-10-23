@@ -19,16 +19,21 @@ var x = 1 + (a *= 2) // значение x = 5
  //Для чисел, нацело делящихся на 3, она должна выводить ‘Fizz’, а для чисел, делящихся на 5 (но не на 3) – 
  //‘Buzz’.Когда сумеете – исправьте её так, чтобы она выводила «FizzBuzz» для всех чисел, которые делятся и на 3 и на 5.
 
+
 var one = 0;
-for (; one < 101; one++) {
- if ( one % 3 = 0) {
-  console.log("Fizz");
- }
- else if ( one % 5 = 0 && one % 3 != 0) {
-  console.log("Buzz");
- }
- else if ( one % 5 = 0 && one % 3 = 0 ) {
-  console.log("FizzBuzz")
- }
+while (one < 101) {
+  
+  if ( one % 5 === 0 && one % 3 === 0 ) {
+    console.log("FizzBuzz");
+  }
+
+  else if ( one % 5 === 0 && one % 3 != 0) {
+    console.log("Buzz");
+    
+  }
+  
+  else if (one % 3 === 0) {
+    console.log("Fizz");
+    }
+one++;
 }
- 
