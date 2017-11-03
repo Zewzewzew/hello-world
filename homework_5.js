@@ -5,12 +5,12 @@ var number = prompt("Enter number.");
 String(number);
 var object = {};
 if (number.length  == 3){
-var firstNumber = number.charAt(0);
-var secondNumber = number.charAt(1);
-var thirdNumber = number.charAt(2);
-object.firstNumber = firstNumber;
-object.secondNumber = secondNumber;
-object.thirdNumber = secondNumber;
+	var firstNumber = number.charAt(0);
+	var secondNumber = number.charAt(1);
+	var thirdNumber = number.charAt(2);
+	object.firstNumber = firstNumber;
+	object.secondNumber = secondNumber;
+	object.thirdNumber = secondNumber;
 
 }
 else if(number.length == 2){
@@ -22,7 +22,7 @@ else if(number.length == 2){
 }
 else if(number.length == 1){
 	var firstNumber = number.charAt(0);
-		object.firstNumber = firstNumber;
+	object.firstNumber = firstNumber;
 
 }
 
